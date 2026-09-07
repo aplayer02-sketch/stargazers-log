@@ -44,7 +44,7 @@ const showError = (err) => {
   p.className = 'status-message error-message';
   p.textContent = 'The repository list could not be loaded. Try refreshing the page.';
   repositoryList.appendChild(p);
-  console.error(err);
+  if (err) console.error(err);
 };
 
 const renderRepositories = (repositories) => {
