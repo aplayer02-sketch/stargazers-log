@@ -44,9 +44,9 @@ body {
 }
 
 h1,
-h2,
-h3,
-p {
+ h2,
+ h3,
+ p {
   margin-top: 0;
 }
 
@@ -154,7 +154,7 @@ h3 a {
 }
 
 h3 a:hover,
-h3 a:focus-visible {
+ h3 a:focus-visible {
   color: var(--accent);
 }
 
